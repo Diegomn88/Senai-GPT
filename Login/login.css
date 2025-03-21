@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+*{
+   padding:0px;
+   margin: 0px;  
+   box-sizing:border-box ;
+}
+
 /* .titulo {
     font-size: 76px;
 }
@@ -11,4 +17,47 @@
 h1{
     font-size: 76px;
     font-family:inter;
+    font-weight: normal;
 }
+
+.inpt { 
+
+    border-radius: 10px; 
+    padding: 20px;  /* Espaçamento interno */
+    margin-bottom: 5px;
+    border: none;    /* Para retirar a borda */
+    background-color:#F7F9FB;
+    width: 377px;
+
+}
+
+.btn-primary {
+    
+     border-radius: 10px;
+     padding: 18px;
+     margin-bottom:16px; 
+     background-color:#1C1C1C;
+     border: none;
+     width: 377px;
+     color: #F7F9FB;     
+    
+}
+
+.login-conteiner {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content:center ;
+
+}
+
+.logo { 
+
+height: 60px;
+
+}
+    
+
+     
