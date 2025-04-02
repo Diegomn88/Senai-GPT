@@ -9,21 +9,28 @@
 .btn-chat {
 
     border-radius: 10px;
-    padding: 18px;
+    padding: 10px;
     background-color: #1C1C1C;
     border: none;
     width: 250px;
     color: #F7F9FB;
-    font-family:inter;
+    font-family: inter;
+
+
+
 }
 
-.botoes{
+.botoes {
 
     width: 250px;
-    margin-top: 30px;
+    margin-top: 20px;
     border: none;
     background-color: white;
-    font-family:inter;
+    font-family: inter;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
 
 }
@@ -32,63 +39,105 @@
 
     width: 100%;
     height: 70%;
-    /* background-color: cornflowerblue; */
-    display:flex;
-    flex-direction: column;
-    align-items: center;
 
 }
 
 .inferior {
-
     width: 100%;
     height: 30%;
-    /* background-color: coral; */
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+
 }
 
 .tela-principal {
     display: flex;
-    
+
 }
 
 .caixa-esquerda {
     width: 20vw;
     height: 100vh;
     /* background-color: blue; */
-
+    padding-top: 1vw;
+    padding-left: 1vw;
 }
 
 .caixa-direita {
     width: 80vw;
-    height: 70vh;
-    justify-content: center;
-    align-items: center;
+    height: 100vh;
     justify-content: center;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-
 }
 
 .caixa-mensagem {
 
-    width: 30vw;
+    width: 30%;
     margin-top: auto;
+    margin-right: 250px;
+    height: 20%;
+}
 
+.inpt {
+
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    background-color: #F7F9FB;
+    width: 600px;
+    margin-bottom: 5px;
+    margin-top: 90px;
 
 }
 
-.inpt { 
+.logo-principal {
 
-    border-radius: 10px; 
-    padding: 20px;  
-    margin-bottom: 5px;
-    border: none;   
-    background-color:#F7F9FB;
-    width: 377px;
+    margin-top: 150px;
+    margin-right: 20px;
+
+}
+
+.tabelas {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    width: 80%;
+
+
+    align-items: center;
+}
+
+.h1 {
+
+    text-align: center;
+
+}
+
+.botao {
+
+    width: 300px;
+    margin-top: 15px;
+    border: none;
+    background-color: white;
+    font-family: inter;
+    text-align: left;
+    font-size: 15px;
+    }
+
+.botoes img { 
+        margin-right: 15px;
+        
+}
+
+.botao img { 
+    margin-right: 15px;
+}
+
+.linha{
+width: 1px;
+height: 100vh;
+background-color: black;
 }
 
